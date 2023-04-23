@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--website title-->
+    <title>Collegester>colleges</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Collegester - Your One-Stop College Search Engine</title>
+    <link rel="stylesheet" href="non responsive/home.css" />
+    <link rel="stylesheet" href="colleges.css" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <!--the header and navbar-->
+    <header>
+      <nav>
+        <!--logo-->
+        <div>
+          <a href="home.html"
+            ><img
+              style="height: 40px; width: 270px"
+              src="images/logo.jfif"
+              alt="Collegester Logo"
+          /></a>
+        </div>
+        <!--navbar-->
+        <div class="nav-links">
+          <ul>
+            <li><a href="colleges.html">Colleges</a></li>
+            <li><a href="scholarships.html">Scholarships</a></li>
+            <li><a href="majors.html">Majors</a></li>
+            <li><a href="scholarships.html">Community</a></li>
+            <!--<li>
+              <button
+                class="btn btn-lg btn btn-outline-primary button-primary-override"
+                onclick="document.location='login.html'"
+              >
+                Log in or Sign up
+              </button>
+            </li>-->
+            <li><a href="login.html">My Account</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--the main code-->
+    <!--the hero section-->
+    <div>
+      <!-- hero section image-->
+      <img src="images/Collegestudents.jpg" id="herosectionimgcolleges" />
+    </div>
+    <main id="page-container">
+      <div id="content-wrap">
+        <!--hero secrion heading and paragraph-->
+        <h1 class="herosectionheading" id="collegesearchheading">
+          College Search
+        </h1>
+        <div class="searchbox">
+          <input
+            type="text"
+            id="searchbox"
+            placeholder="Write the college name you are looking for"
+            aria-label="Search"
+            onkeyup="search()"
+            aria-describedby="search-addon"
+          />
+          <button type="submit" style="background: none; border: none">
+            <img id="searchicon" src="images\searchicon.png" />
+          </button>
+        </div>
+        <div class="divider"><br /></div>
+        <div class="filters">
+          <div
+            style="width: 350px; height: 3620px; background-color: #c7c5c5b2"
+          >
+            <div class="filterContents" style="  --form-control-disabled: #959495;">
+              <form onsubmit="return false;">
+              <p class="filter_title">Location of university:</p>
+              
+              <input type="checkbox" id="Dubai" class="checkbox" name="Dubai" />
+              <label for="Dubai">Dubai</label><br />
+              <input
+                type="checkbox"
+                id="Abu Dhabi"
+                name="Abu Dhabi"
+                class="checkbox"
+              />
+              <label for="Abu Dhabi">Abu Dhabi</label><br />
+              <input
+                type="checkbox"
+                id="Sharjah"
+                name="Sharjah"
+                class="checkbox"
+              />
+              <label for="Sharjah">Sharjah</label><br />
+              <input
+                type="checkbox"
+                id="RasAlKhaima"
+                name="Ras Al Khaima"
+                class="checkbox"
+              />
+              <label for="Ras Al Khaima">Ras Al Khaima</label><br />
+              <input
+                type="checkbox"
+                id="Ajman"
+                name="Ajman"
+                class="checkbox"
+              />
+
+              <label for="Ajman">Ajman</label><br />
+              
+              <p class="filter_title" style="margin: 40px 0px 15px 0px ;">Institution type:</p>
+              <input
+                type="checkbox"
+                id="Private"
+                name="Private"
+                class="checkbox-disabled"
+                />
+              <label for="Private" class="">Private</label><br />
+              <input
+                type="checkbox"
+                id="Public"
+                name="Public"
+                class="checkbox-disabled"
+                />
+              <label for="Public" class="" >Public</label><br />
+            </div>
+            <span
+                ><button
+                  type="submit"
+                  onclick="filter()"
+                  style="
+                  margin: 30px 20px;
+                  border-color: #959495;
+                  box-shadow: none;
+                  color:#959495;
+                    background-color: transparent;
+                  "
+                >
+              Apply filters</span>
+          </form>
+          </div>
+        </div>
+        <div class="firstsection" id="accordion"></div>
+      </div>
+    </main>
+    <footer style="z-index: 4; position: absolute; top: 4200px; width: 100%">
+      <!--the footer is here -->
+
+      <div class="footer">
+        <div class="footerhead">
+          <h5 class="heading">Short Brief About Us</h5>
+          <p class="paragraph">
+            Collegester is your ultimate guide to finding the best colleges and
+            majors in the UAE. Our easy-to-use search engine and comprehensive
+            database of colleges and programs help you make informed decisions
+            about your education and career. With Collegester, you can simplify
+            your college search and find the perfect fit for you.
+          </p>
+          <img />
+          <div class="secondcolumn">
+            <a><h5 style="margin-top: -150px">Website links</h5></a>
+            <a class="footerlink" href="home.html"><p>Home</p></a>
+            <a class="footerlink" href="collegs.html"><p>Colleges</p></a>
+            <a class="footerlink" href="scholarships.html"
+              ><p>Scholarships</p></a
+            >
+            <a class="footerlink" href="majors.html"><p>Majors</p></a>
+          </div>
+          <div class="thirdcolumn">
+            <a><h5 style="margin-top: -150px">Services</h5></a>
+            <a class="footerlink" href="college.html"><p>Search</p></a>
+            <a class="footerlink" href="collegs.html"><p>links</p></a>
+            <a class="footerlink" href="scholarships.html"><p>News</p></a>
+          </div>
+          <div class="fourthcolumn">
+            <a><h5 style="margin-top: -150px">About us</h5></a>
+            <a class="footerlink" href="Maria.aldbs@gmail.com"><p>Email</p></a>
+            <a
+              class="footerlink"
+              href="https://www.instagram.com/mariahadialdbs/"
+              ><p>Instagram</p></a
+            >
+            <a class="footerlink" href="www.linkedin.com/in/maria-aldbs-magroon"
+              ><p>LinkedIn</p></a
+            >
+            <a class="footerlink" href="majors.html"><p>Majors</p></a>
+          </div>
+        </div>
+        <div class="footerfooter">
+          <hr
+            class="footerlink"
+            style="border-width: 1.5px; width: 85%; margin-left: 100px"
+          />
+          <p class="Copyrighted">
+            Non Copyrighted @ 2023 Collegester made by maria
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="colleges.js"></script>
+  </body>
+</html>

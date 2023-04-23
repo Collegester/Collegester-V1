@@ -1,0 +1,208 @@
+/*hero section elements (text and picture) */
+
+
+#herosectionimgcolleges {
+  position: absolute;
+  right: 75px;
+  position: absolute;
+  top: 150px;
+  width: 550px;
+  height: 360px;
+}
+
+#collegesearchheading {
+  padding: 0px 0px 30px 125px;
+  color: rgba(0, 0, 0, 0.495);
+  font-size: 45px;
+}
+
+
+/*Search bar and search box*/
+.searchbox {
+  width: 45%;
+  margin: 0px 0px 220px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 55px;
+  padding: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+#searchicon {
+  width: 30px;
+  height: 30px;
+}
+
+input {
+  font-size: 20px;
+  width: 500px;
+  border: 0;
+  background: transparent;
+  outline: none;
+}
+
+/*college cards*/
+.firstsection{
+  z-index: 1;
+  background-color: #dedddd41;
+padding: 80px 0px 0px 40px;
+  text-align: center;
+  margin: 10px 0px 0px 0px ;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#accordion {
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0px;
+  padding-top: 40px;
+  padding-bottom:40px;
+  width:100%; 
+  text-align: center;
+  margin: 0px 0px 0px 0px  ;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  width: 33%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .button-primary-over {
+  border-color: #325654 !important;
+  color: #325654 !important;
+  width: 350px !important;
+
+  align-self: center !important;
+}
+
+.card .button-primary-over:hover {
+  background-color: #325654 !important;
+  border-color: #325654 !important;
+  background-image: none !important;
+  border: 0 !important;
+  color: #f9f9f9 !important;
+}
+
+.card-img-top {
+  object-fit: cover; /* to make sure the image covers the entire space */
+  position: relative; /* set the position of the image */
+}
+
+.card-img-top {
+  position: absolute; /* position the image absolutely within the parent container */
+  top: 18%; /* position the top of the image at 50% of the parent container */
+  left: 50%; /* position the left of the image at 50% of the parent container */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* center the image horizontally and vertically */
+  height: 200px;
+  width: auto; /* set the width of the image to 100% of the parent container */
+  /* allow the height to adjust based on the width to maintain aspect ratio */
+}
+
+.card-title {
+  margin-top: 220px;
+  margin-left: -10px;
+  font-family: "Nunito Sans", sans-serif;
+  align-self: flex-start;
+  text-align: left;
+}
+
+#location {
+  margin: 10px 0px 20px -10px;
+  font-family: "Montserrat", sans-serif;
+  align-self: flex-start;
+  text-align: left;
+  float: inline-start;
+}
+
+.logo {
+  width: 75px;
+  height: 70px;
+  position: absolute;
+  top: 38%;
+  border-radius: 10%;
+  left: 20px;
+  background-color: #fff;
+  padding: 4px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 38%;
+  right: 7%;
+}
+
+.heart {
+  width: 25px;
+  height: auto;
+  position: absolute;
+  top: 41.5%;
+  right: 10%;
+}
+/*divider*/
+.divider {
+  padding: 20px;
+  margin-top:-30px;
+  background-color:rgb(194, 193, 193) ;
+  z-index: 3;
+}
+/*filters*/
+
+.filters{
+  position: absolute; left: 0px;
+  align-items:left;
+  z-index: 2;
+  text-align: left;
+  padding: 0px 0px 30px 40px;
+  margin: 0px 0px 0px -40px ;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: large;
+
+}
+
+.filterContents{
+  margin:0px 0px 0px 10px;
+  padding-top: 30px;
+}
+
+.filterContents label{
+  margin: 5px 0px 0px 40px;
+}
+.checkbox{
+  position: absolute; left: -190px;
+  margin: 10px;
+}
+
+.checkbox-disabled {
+  background-color: #a0a0a0;
+  color:#7e7e7e;
+  font: inherit;
+  position: absolute; left: -190px;
+  margin: 10px;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  
+}
