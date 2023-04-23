@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+        crossorigin="anonymous"
+      />
+  
+      <!--google fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Raleway:wght@700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="home.css" />
+      <link rel="stylesheet" href="majors.css" />
+      <title>Collegester</title>
+  </head>
+  <body>
+    <header >
+      <nav>
+        <!--logo-->
+        <div class="logo">
+          <a href="home.html"
+            ><img
+              style="height: 40px; width: 270px"
+              src="images/logo.jfif"
+              alt="Collegester Logo"
+          /></a>
+        </div>
+        <!--navbar-->
+        <div class="topnav" id="menulist">
+             <button  onclick="togglemenu()" class="navbaricon" id="link">
+              <img src="images/navigation-bar.png"/>
+             </button>
+          <ul>
+            <li><a class="links" id="topnav" href="colleges.html" >Colleges</a></li>
+            <li><a class="links" href="scholarships.html">Scholarships</a></li>
+            <li><a class="links" href="majors.html">Majors</a></li>
+            <li><a class="links" href="scholarships.html">Community</a></li>
+            <li><a class="links"href="login.html">My Account</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+      <!--the main code-->
+      <main >
+         <!--the hero section-->
+      <div class="majorsherosection">
+        <!-- hero section image-->
+        <img src="images/MajorsHeroSection.jpg" id="majorsherosectionimg" />
+        <!--hero secrion heading and paragraph-->
+        <h1 class="herosectionheading">Find your passion and make it <br> your career: Explore the top majors<br> in the UAE with Collegester.</h1>
+        <p class="herosectionparagraph">Collegester's database includes data on the most popular majors among students<br> in the UAE, giving you valuable insights into the current trends.</p>
+      </div>
+    <main>
+      <section class="firstsection">
+        <!--heading that says why collegester?-->
+        <h1 id="whycollegesterheading" style="margin-left: -25px;">How to Choose Your Major?</h1>
+        <div class="container row">
+          <!--first why us card-->
+          <div class="features col-sm-6 whycard" id="firstwhycard">
+            <img src="images/consideringaspects.jpg" />
+            <h3>Highest paid majors</h3>
+            <p>
+              Collegester's search engine provides information on the highest paid majors in the UAE.
+            </p>
+            <button
+              type="button"
+              class="btn btn-lg btn btn-outline-primary button-primary-override whycollegesterbutton"
+            >See Highest paid Majors</button>
+          </div>
+          <!--second why us card-->
+          <div class="features col-sm-6 whycard">
+            <img src="images/documentationsandsuch.jpg" />
+            <h3>Take a personality test</h3>
+            <p>
+              Take a personality test to see which career paths match your personal desires and qualities.
+            </p><a href="https://www.thoughtco.com/college-major-quiz-4089204" target="_blank">
+            <button
+              type="button"
+              class="btn btn-lg btn btn-outline-primary button-primary-override whycollegesterbutton"
+            >Take the Personality test</button></a>
+          </div>
+          <!-- third why us card-->
+          <div class="features col-sm-6 whycard">
+            <img src="images/checkinggoals.jpg" />
+            <h3>Learn more</h3>
+            <p>
+              Have good knowledge on the jobs market and the things you need to do to succeed in your chosen career path.
+            </p><a href="https://youtu.be/eGR2Yf6yBRA" target="_blank">
+            <button
+              type="button"
+              class="btn btn-lg btn btn-outline-primary button-primary-override whycollegesterbutton"
+            >
+              How to Choose
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="popularmajors" id="highestpay">
+        <h1 class="sectionheading" >Highest Paid Majors in The UAE</h1>
+        <section class="majors-container">
+          <div class="card">
+            <div class="image">
+              <img src="images/ComputerScience.jpg" alt="" />
+            </div>
+            <h2>Computer science</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img
+                class="card-img-top"
+                src="images/Medicalsciences.jpg"
+                alt=""
+              />
+            </div>
+            <h2>Medical sciences</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/buisness.jpg" alt="" />
+            </div>
+            <h2>Buisness Administration</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img
+                class="card-img-top"
+                src="images/engineer.jpg"
+                alt=""
+              />
+            </div>
+            <h2>Civil engineering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/lawyer.jpg" alt="" />
+            </div>
+            <h2>Lawyer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/datascience.jpg" alt="" />
+            </div>
+            <h2>Data science</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/petroleum.jpg" alt="" />
+            </div>
+            <h2>Petroleum Engineering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+        </section>
+      <section class="popularmajors">
+          <h1 class="sectionheading" >Most Popular Majors in The UAE</h1>
+          <section class="majors-container">
+            <div class="card">
+              <div class="image">
+                <img src="images/ComputerScience.jpg" alt="" />
+              </div>
+              <h2>Computer science</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img
+                  class="card-img-top"
+                  src="images/Medicalsciences.jpg"
+                  alt=""
+                />
+              </div>
+              <h2>Medical sciences</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img src="images/buisness.jpg" alt="" />
+              </div>
+              <h2>Buisness Administration</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img
+                  class="card-img-top"
+                  src="images/engineer.jpg"
+                  alt=""
+                />
+              </div>
+              <h2>Civil engineering</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img src="images/lawyer.jpg" alt="" />
+              </div>
+              <h2>Law</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img src="images/datascience.jpg" alt="" />
+              </div>
+              <h2>Data science</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img src="images/petroleum.jpg" alt="" />
+              </div>
+              <h2>Petroleum Engineering</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            </div>
+          </section>
+        </main>
+          
+      </main>
+      <footer>
+        <!--the footer is here -->
+  
+        <div class="footer">
+          <div class="footerhead">
+            <h5 class="heading">Short Brief About Us</h5>
+            <p class="paragraph">Collegester is your ultimate guide to finding the best colleges and majors in the UAE. Our easy-to-use search engine and comprehensive database of colleges and programs help you make informed decisions about your education and career. With Collegester, you can simplify your college search and find the perfect fit for you.</p>
+            <img/>
+            <div class="secondcolumn">
+              <a><h5 style="margin-top: -150px;">Website links</h5></a>
+              <a class="footerlink" href="home.html"><p>Home</p></a>
+              <a class="footerlink" href="collegs.html"><p>Colleges</p></a>
+              <a class="footerlink" href="scholarships.html" ><p>Scholarships</p></a>
+              <a class="footerlink" href="majors.html"><p>Majors</p></a>
+              </div>
+            <div class="thirdcolumn">
+              <a><h5 style="margin-top: -150px;">Services</h5></a>
+              <a class="footerlink" href="college.html"><p>Search</p></a>
+              <a class="footerlink" href="collegs.html"><p>links</p></a>
+              <a class="footerlink" href="scholarships.html" ><p>News</p></a>
+              </div>
+            <div class="fourthcolumn">
+              <a><h5 style="margin-top: -150px;">About us</h5></a>
+              <a class="footerlink" href="Maria.aldbs@gmail.com"><p>Email</p></a>
+              <a class="footerlink" href="https://www.instagram.com/mariahadialdbs/"><p>Instagram</p></a>
+              <a class="footerlink" href="www.linkedin.com/in/maria-aldbs-magroon" ><p>LinkedIn</p></a>
+              <a class="footerlink" href="majors.html"><p>Majors</p></a>
+            </div>
+          </div>
+          <div class="footerfooter">
+  
+            <hr class="footerlink" style="border-width: 1.5px; width:85%; margin-left: 100px;">
+            <p class="Copyrighted" >Non Copyrighted @ 2023 Collegester made by maria</p>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
