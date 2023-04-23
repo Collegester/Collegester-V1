@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--website title-->
+    <title>Collegester</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Collegester - Your One-Stop College Search Engine</title>
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1027px)"
+      href="index.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:1028px)"
+      href="home.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:755px)"
+      href="indextwo.css"
+    />
+
+    <script media="screen and (max-width:1027px)" src="home.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--the header and navbar-->
+    <header>
+      <nav>
+        <!--logo-->
+        <div class="logo">
+          <a href="home.html"
+            ><img
+              style="height: 40px; width: 270px"
+              src="images/logo.jfif"
+              alt="Collegester Logo"
+          /></a>
+        </div>
+        <!--navbar-->
+        <div class="topnav">
+          <button onclick="togglemenu()" class="navbaricon" id="link">
+            <img src="images/navigation-bar.png" />
+          </button>
+          <ul id="menulist">
+            <li><a class="links" href="colleges.html">Colleges</a></li>
+            <li><a class="links" href="scholarships.html">Scholarships</a></li>
+            <li><a class="links" href="majors.html">Majors</a></li>
+            <li><a class="links" href="scholarships.html">Community</a></li>
+            <li><a class="links" href="login.html">My Account</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--the main code-->
+    <main>
+      <!--the hero section-->
+      <div>
+        <!-- hero section image-->
+        <img src="images/happygirl.jpg" id="herosectionimg" />
+        <!--hero secrion heading and paragraph-->
+        <h1 class="herosectionheading">
+          Your college search, simplified:<br />
+          Discover UAE colleges <br />with Collegester
+        </h1>
+        <p class="herosectionparagraph" media="min-width:1029.33">
+          Collegester takes the stress out of finding the right college. With
+          our easy-to-use search engine, you can quickly discover the top
+          colleges in the UAE that match your preferences and needs.
+        </p>
+        <!--call to action button that links to college search page-->
+        <button
+          type="button"
+          onclick="document.location='colleges.html'"
+          class="btn btn-lg btn btn-outline-primary button-primary-override"
+          id="button"
+        >
+          Discover Colleges
+        </button>
+      </div>
+      <!--why collegester-->
+      <section class="firstsection">
+        <!--heading that says why collegester?-->
+        <h1 id="whycollegesterheading">Why Collegester?</h1>
+        <div class="container row">
+          <!--first why us card-->
+          <div class="features col-sm-6 whycard" id="firstwhycard">
+            <img src="images/consideringaspects.jpg" />
+            <h3>Comprehensive Search</h3>
+            <p>
+              Collegester's search engine provides comprehensive and accurate
+              information about colleges in the UAE.
+            </p>
+            <button
+              type="button"
+              class="btn btn-lg btn btn-outline-primary button-primary-override whycollegesterbutton"
+            >
+              Go to Community
+            </button>
+          </div>
+          <!--second why us card-->
+          <div class="features col-sm-6 whycard" id="secondwhycard">
+            <img src="images/documentationsandsuch.jpg" />
+            <h3>Save Time</h3>
+            <p>
+              save time and energy by easily searching for colleges in one
+              place, collegester the confusion.
+            </p>
+            <button
+              type="button"
+              class="btn btn-lg btn btn-outline-primary button-primary-override whycollegesterbutton"
+              onclick="document.location='colleges.html'"
+            >
+              Discover Colleges
+            </button>
+          </div>
+          <!-- third why us card-->
+          <div class="features col-sm-6 whycard" id="lastwhycard">
+            <img src="images/checkinggoals.jpg" />
+            <h3>Personalized Results</h3>
+            <p>
+              Collegester's search engine helps you find colleges that match
+              your specific preferences and needs.
+            </p>
+            <button
+              type="button"
+              class="btn btn-lg btn btn-outline-primary button-primary-override whycollegesterbutton"
+            >
+              Choose Majors
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--featured colleges section that has example colleges-->
+
+      <section class="popularmajors">
+        <h1 class="sectionheading">Popular Majors</h1>
+        <section class="majors-container">
+          <div class="card">
+            <div class="image">
+              <img src="images/ComputerScience.jpg" alt="" />
+            </div>
+            <h2>Computer science</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img
+                class="card-img-top"
+                src="images/Medicalsciences.jpg"
+                alt=""
+              />
+            </div>
+            <h2>Medical sciences</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/buisness.jpg" alt="" />
+            </div>
+            <h2>Buisness Administration</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img class="card-img-top" src="images/engineer.jpg" alt="" />
+            </div>
+            <h2>Civil engineering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/lawyer.jpg" alt="" />
+            </div>
+            <h2>Lawyer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/datascience.jpg" alt="" />
+            </div>
+            <h2>Data science</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/petroleum.jpg" alt="" />
+            </div>
+            <h2>Petroleum Engineering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+          </div>
+        </section>
+      </section>
+      <section class="featuredcolleges">
+        <h1 class="sectionheading" style="padding-top: 15px">
+          Featured Colleges
+        </h1>
+        <div class="collegesContainer" id="collegesContainer"></div>
+      </section>
+      <section class="news">
+        <h1 class="sectionheading">News in education</h1>
+        <section class="news-container">
+          <div class="card">
+            <div class="image">
+              <img src="images/Emsat.jpg" alt="" />
+            </div>
+            <h2>EmSAT changes in UAE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            <button
+              type="button"
+              class="btn btn-lg btn btn-outline-primary button-primary-override whycollegesterbutton"
+            >
+              Learn more
+            </button>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/renweing.jpg" alt="" />
+            </div>
+            <h2>EmSAT changes in UAE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
+            <button
+              type="button"
+              class="btn btn-lg btn btn-outline-primary button-primary-override newsbutton"
+            >
+              Learn more
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <!--the footer is here -->
+
+      <div class="footer">
+        <div class="footerhead">
+          <h5 class="heading">Short Brief About Us</h5>
+          <p class="paragraph">
+            Collegester is your ultimate guide to finding the best colleges and
+            majors in the UAE. Our easy-to-use search engine and comprehensive
+            database of colleges and programs help you make informed decisions
+            about your education and career. With Collegester, you can simplify
+            your college search and find the perfect fit for you.
+          </p>
+          <img />
+          <div class="secondcolumn">
+            <a><h5 style="margin-top: -10px">Website links</h5></a>
+            <a class="footerlink" href="home.html"><p>Home</p></a>
+            <a class="footerlink" href="collegs.html"><p>Colleges</p></a>
+            <a class="footerlink" href="scholarships.html"
+              ><p>Scholarships</p></a
+            >
+            <a class="footerlink" href="majors.html"><p>Majors</p></a>
+          </div>
+          <div class="thirdcolumn">
+            <a><h5 style="margin-top: -20px">Services</h5></a>
+            <a class="footerlink" href="college.html"><p>Search</p></a>
+            <a class="footerlink" href="collegs.html"><p>links</p></a>
+            <a class="footerlink" href="scholarships.html"><p>News</p></a>
+          </div>
+          <div class="fourthcolumn">
+            <a><h5 style="margin-top: -150px">About us</h5></a>
+            <a class="footerlink" href="Maria.aldbs@gmail.com"><p>Email</p></a>
+            <a
+              class="footerlink"
+              href="https://www.instagram.com/mariahadialdbs/"
+              ><p>Instagram</p></a
+            >
+            <a class="footerlink" href="www.linkedin.com/in/maria-aldbs-magroon"
+              ><p>LinkedIn</p></a
+            >
+            <a class="footerlink" href="majors.html"><p>Majors</p></a>
+          </div>
+        </div>
+        <div class="footerfooter">
+          <hr
+            class="footerlink"
+            style="border-width: 1.5px; width: 85%; margin-left: 100px"
+          />
+          <p class="Copyrighted">
+            Non Copyrighted @ 2023 Collegester made by maria
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <!--the javascript code-->
+    <script>
+      // data for colleges
+      const colleges = [
+        {
+          name: "American University in Emirates",
+          location: "Dubai",
+          publicPrivate: "private",
+          website: "https://aue.ae/",
+          logo: "images/AUElogo.png",
+          img: "images/AUEcampus.jpg",
+        },
+        {
+          name: "American University in Sharjah",
+          location: "Sharjah",
+          publicPrivate: "private",
+          website: "https://www.aus.edu/",
+          logo: "images/AUSlogo.png",
+          img: "images/AUScampus.jfif",
+        },
+        {
+          name: "RIT",
+          location: "Dubai",
+          publicPrivate: "private",
+          website: "https://www.rit.edu/dubai/",
+          logo: "images/RITlogo.png",
+          img: "images/RITcampus.jpg",
+        },
+        {
+          name: "ALDAR",
+          location: "Dubai",
+          publicPrivate: "public",
+          website: "https://www.aldar.com/en",
+          logo: "images/aldar-logo.png",
+          img: "images/aldarcampus.png",
+        },
+        {
+          name: "jumaira",
+          location: "Dubai",
+          publicPrivate: "private",
+          website: "https://www.gemsjc.com/",
+          logo: "images/jumaira-logo.png",
+          img: "images/Jumairacampus.png",
+        },
+        {
+          name: "American University in Dubai",
+          location: "Dubai",
+          publicPrivate: "private",
+          website: "https://www.aud.edu/",
+          logo: "images/AUDlogo.png",
+          img: "images/AUDcampus.jfif",
+        },
+        {
+          name: "UAEU",
+          location: "Abu Dhabi",
+          publicPrivate: "public",
+          website: "https://www.uaeu.ac.ae/en/",
+          logo: "images/UAEUlogo.png",
+          img: "images/UAEUcampus.jpg",
+        },
+        {
+          name: "Khalifa University",
+          location: "Abu Dhabi",
+          publicPrivate: "public",
+          website: "https://www.ku.ac.ae/",
+          logo: "images/Khalifa-logo.jfif",
+          img: "images/khalifacampus.jpg",
+        },
+        {
+          name: "University of Sharjah",
+          location: "Sharjah",
+          publicPrivate: "private",
+          website: "https://www.sharjah.ac.ae/en/Pages/default.aspx",
+          logo: "images/sharjah-uni-logo.png",
+          img: "images/sharjahcampus.jpg",
+        },
+        {
+          name: "BUiD",
+          location: "Dubai",
+          publicPrivate: "private",
+          website: "https://www.buid.ac.ae/",
+          logo: "images/BUiDlogo.png",
+          img: "images/BUiDcampus.jpg",
+        },
+        {
+          name: "Zayed University",
+          location: "Dubai",
+          publicPrivate: "public",
+          website: "https://www.zu.ac.ae/main/en/index",
+          logo: "images/zayedunilogo.jfif",
+          img: "images/zayedcampus.jpg",
+        },
+        {
+          name: "Gulf Medical University",
+          location: "Ajman",
+          publicPrivate: "private",
+          website: "https://gmu.ac.ae/",
+          logo: "images/gulf-med-uni-logo.jfif",
+          img: "images/gmucampus.jpg",
+        },
+        {
+          name: "Higher Colleges of Technology",
+          location: "Abu Dhabi",
+          publicPrivate: "public",
+          website: "https://hct.ac.ae/en/",
+          logo: "images/Higher_Colleges_of_Technology_logo.png",
+          img: "images/HCTcampus.jpg",
+        },
+        {
+          name: "Abu Dhabi University",
+          location: "Abu Dhabi",
+          publicPrivate: "private",
+          website: "https://www.adu.ac.ae/en/home",
+          logo: "images/Abu_Dhabi_Universityl-ogo.png",
+          img: "images/AbuDhabicampus.jpg",
+        },
+        {
+          name: "AU Ras Al Khaimah",
+          location: "Ras Al Khaima",
+          publicPrivate: "public",
+          website:
+            "https://join.aurak.ac.ae/?utm_source=adwords&utm_medium=cpc&utm_campaign=UAE&utm_content=%7C2%7C512140942933%7C_2%7C%7C3%7C%7C_3%7C&utm_term=%7C4%7Ckwd-301310586949%7C_4%7Caurak512140942933%7C_2%7C%7C3%7C%7C_3%7C&utm&gclid=Cj0KCQiA1sucBhDgARIsAFoytUv-_NCOVFXmc8GzXgKvPGJ4jVZZCHh0NiKH1h9-jOO9wGbUsouINUUaAtspEALw_wcB",
+          logo: "images/AURAKlogo.png",
+          img: "images/AURAKcampus.png",
+        },
+      ];
+      const homecontainer = document.getElementById("collegesContainer");
+
+      colleges.forEach((result) => {
+        // Create card element
+        const card = document.createElement("div");
+        card.classList = "card-body";
+
+        // Construct card content
+
+        const content = `<div class="card">
+  <div class="item" data-id="1">
+  <div class="card-body">
+
+    <img src="${result.img}" class="card-img-top">
+    <h5 class="card-title">${result.name}</h5>
+    <p id="location">${result.location} - ${result.publicPrivate}</p>
+    
+    
+    <a href="${result.website}" target=”_blank” class="btn btn-lg btn btn-outline-primary button-primary-over">View more</a>
+  </div>
+</div>
+</div>
+
+  `;
+
+        // Append newyly created card element to the homecontainer
+        homecontainer.innerHTML += content;
+      });
+
+      //**********************************************************************************************************************
+    </script>
+  </body>
+</html>

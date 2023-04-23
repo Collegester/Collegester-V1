@@ -1,0 +1,460 @@
+/*main styling for body and header*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  .topnav ul{
+    height: 180px;
+    background-color: rgba(225, 225, 225, 0.655);
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px grey;
+    top: 75px;
+    right:0px;
+    z-index: 2;
+  } 
+
+  .topnav li{
+    display: block ;
+    margin: 10px ;
+    margin-left: -10px;
+  }
+
+  .topnav .links{
+    color:#000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #menulist{
+    overflow: hidden;
+    transition-timing-function: ease-in;
+    transition: width 4s, height 4s;
+  }
+  .navbaricon{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right:20px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .logo{
+    margin-top: 20px;
+  }
+  
+  /*hero section styling*/
+  
+  .herosectionheading {
+  margin: 9% 0.6% 0.8% 4%;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color:rgba(20, 89, 67, 0.779);
+  width: 80%;
+  font-size: 200%;
+  
+  } 
+  
+  .herosectionparagraph{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 0px 20px 4%; 
+    width: 85%;
+    font-size: 60%;
+  
+  }
+  
+  .button-primary-override{
+    color: #ff4621a4 !important;
+    border-color: #ff4621a4 !important;
+    margin: 0px 0px 0px 30px;
+  width: 200px;
+  }
+  .button-primary-override:hover, 
+  .button-primary-override:active,
+  .button-primary-override:focus,
+  .button-primary-override:visited{
+      background-color: #ff4621a4 !important;
+      border-color: #ff4621a4 !important;
+      background-image: none !important;
+      border: 0 !important;
+      color: #f9f9f9 !important;
+  }
+  
+  .nav-links .button-primary-override{
+    width: 200px;
+    height:30px;
+    margin: 0px!important;
+    font-size: 80% !important;
+    text-align: center;
+    padding-top: 4px;
+  }
+  
+  
+  
+  #herosectionimg {
+    display: none;
+  }
+  
+  .hero-section h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+    
+/*****************************************************************************************************************************************************************************/
+ /*first section (why collegester) styling*/
+.firstsection {
+
+  position: absolute;
+  left: -9999px;}
+
+/*****************************************************************************************************************************************************************************/
+  
+  /*featured colleges and popular majors section*/
+  .featuredcolleges{
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    margin: 0px ;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+    background-color:  #ffffff94;
+  }
+  
+  .popularmajors{
+    background-color: #f2f2f294;
+    padding: 7px 0px 2.7% 0px;
+    width:100%;
+    text-align: center;
+    margin: 50px 0px 0px 0px ;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .news{
+    padding: 7px 0px 0px 0px;
+    text-align: center;
+    margin: 0px ;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+    background-color: #f2f2f294;
+  }
+  
+  .news .card{
+    flex:0 0 50%;
+    height: auto;
+  
+  }
+
+  .newsbutton{
+    width: 70% !important;
+  }
+  
+  /* responsive card slider*/
+  /* Import Google font - Poppins */
+  
+  .sectionheading{
+    margin: 10px 7px 10px 50px;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color:rgba(0, 0, 0, 0.779);
+  width: 1000px;
+  text-align: left;
+  }
+  
+  
+  ::-webkit-scrollbar {
+    height: 8px;
+    display: none;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a9abb4;
+    border-radius: 25px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #565c6c;
+  }
+  .majors-container {
+    display: flex;
+    align-self: center;
+    gap: 12px;
+    max-width: 1350px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 30px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    -ms-overflow-style:none;
+    scroll-padding: 30px;
+  }
+  
+  .featuredcolleges .collegesContainer {
+    display: flex;
+    align-self: center;
+    gap: 6px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 30px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    -ms-overflow-style:none;
+    scroll-padding: 30px;
+  }
+  
+  .news-container{
+    display: flex;
+    gap: 12px;
+    margin-left: 3%;
+    margin-right:3%;
+    border-radius: 12px;
+
+  }
+  
+  
+  .news-container .card {
+    display: block;
+    flex: 0 0 50%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    background: #fff;
+    scroll-snap-align: start;
+  }
+  
+  .news-container  img {
+    height: 40%;
+    width: 40%;
+    object-fit: cover;
+  }
+  
+  .majors-container .card {
+    display: block;
+    flex: 0 0 50%;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 12px;
+    background: #fff;
+    scroll-snap-align: start;
+  }
+  
+  .majors-container .image img {
+    height: 20%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .majors-container .card h2 {
+    margin-top: 10%;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .majors-container .card p {
+    margin-top: 4%;
+    font-size: 70%;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+  }
+  
+  
+  .seconttolastsection{
+    background-color: rgb(85, 92, 92);
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    margin: 0px ;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Raleway', sans-serif;  
+  }
+  
+  
+  
+  .featuredcolleges .collegesContainer .card {
+      display: block;
+      flex: 0 0 50%;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      background: #fff;
+      scroll-snap-align: start;
+      padding: 1rem;
+      border: 0.5px solid rgba(173, 173, 173, 0.66);
+      margin: 10px;
+      width: 20%;
+      border-radius: 10px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      
+    }
+    
+    .featuredcolleges .collegesContainer .card .button-primary-over {
+      border-color: #ff4621a4 !important;
+      color: #ff4621a4 !important;
+      width: 97% !important;
+    
+      align-self: center !important;
+    }
+    
+    .featuredcolleges .collegesContainer .card .button-primary-over:hover {
+      background-color: #ff4621a4 !important;
+      border-color: #ff4621a4 !important;
+      background-image: none !important;
+      border: 0 !important;
+      color: #f9f9f9 !important;
+    }
+    
+  
+    .featuredcolleges .collegesContainer .card-img-top {
+      position: absolute; /* position the image absolutely within the parent container */
+      top: 17%; /* position the top of the image at 50% of the parent container */
+      left: 50%; /* position the left of the image at 50% of the parent container */
+      transform: translate(
+        -50%,
+        -50%
+      ); /* center the image horizontally and vertically */
+      height: 150px;
+      width: 100%;
+      /* allow the height to adjust based on the width to maintain aspect ratio */
+    }
+    
+    .featuredcolleges .collegesContainer .box{
+      background-color: #cdcdcd;
+      color:#ff4621a4;
+      height: 35%;
+    }
+  
+    .featuredcolleges .collegesContainer .card-title {
+      margin-top: 150px;
+      margin-left: -10px;
+      font-family: "Nunito Sans", sans-serif;
+      align-self: flex-start;
+      text-align: left;
+    }
+    
+    .featuredcolleges .collegesContainer #location {
+      margin: 10px 0px 20px -10px;
+      font-family: "Montserrat", sans-serif;
+      align-self: flex-start;
+      text-align: left;
+      float: inline-start;
+    }
+    
+    .featuredcolleges .collegesContainer .logo {
+      width: 75px;
+      height: 70px;
+      position: absolute;
+      top: 35%;
+      border-radius: 10%;
+      left: 20px;
+      background-color: #fff;
+      padding: 4px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .featuredcolleges .collegesContainer .circle {
+      height: 50px;
+      width: 50px;
+      background-color: #fff;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      top: 38%;
+      right: 7%;
+    }
+    
+    .featuredcolleges .collegesContainer .heart {
+      width: 25px;
+      height: auto;
+      position: absolute;
+      top: 41.5%;
+      right: 10%;
+    }
+    
+    /*footerr*/
+    
+    .footer{
+      z-index: 3;
+      margin-top: 30px;
+    }
+  
+    .footer h5, h6,.paragraph, .footerlink{
+      color:#ffffffde;
+    }
+  
+    .footerlink a{
+      text-decoration:none;
+      font-size:20px;
+  
+    }
+    .footerlink:hover{
+      color:#ffffffde;
+  
+    }
+  
+    .footer h5{
+      margin:0px 0px 50px 0px;
+      
+    }
+    
+    .footerhead{
+      background-color:#454545;
+      margin-bottom:0px;
+      padding: 50px 0px 40px 90px
+    }
+  
+    .footerfooter{
+      background-color: #3c3c3c;
+      margin:-20px;
+      padding: 20px 0px 10px 0px;
+    }
+  
+    .footer .heading{
+      font-weight: 700;
+  
+    }
+  
+  .footer .paragraph{
+      width:450px;
+      height:50px; 
+      font-size: small;
+  }
+  
+  .secondcolumn{
+    margin: -50px 0px 40px 50px;
+    align-items: left;
+    
+  }
+  
+  .thirdcolumn{
+    margin: -235px 0px 40px 220px;
+  }
+  
+  .fourthcolumn{
+display:none;  
+  }
+  
+  
+  .footerfooter p{
+  text-align: center;
+  color: #ffffff;}
