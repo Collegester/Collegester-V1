@@ -48,7 +48,7 @@ function filter() {
   }
 }*/
 // data for colleges
-const colleges = [
+/*const colleges = [
   {
     name: "American University in Emirates",
     location: "Dubai",
@@ -57,6 +57,7 @@ const colleges = [
     logo: "images/AUElogo.png",
     img: "images/AUEcampus.jpg",
   },
+
   {
     name: "American University in Sharjah",
     location: "Sharjah",
@@ -129,6 +130,7 @@ const colleges = [
     logo: "images/BUiDlogo.png",
     img: "images/BUiDcampus.jpg",
   },
+
   {
     name: "Zayed University",
     location: "Dubai",
@@ -170,7 +172,288 @@ const colleges = [
     logo: "images/AURAKlogo.png",
     img: "images/AURAKcampus.png",
   },
+  {
+    name: "higher colleges of technology",
+    location: "Sharjah",
+  },
 ];
+*/
+
+const colleges = [
+  {
+    name: "American University In The Emirates",
+    location: "Dubai",
+  },
+  {
+    name: "American University of Sharjah",
+    location: "Sharjah",
+  },
+  {
+    name: "Rochester Institute of Technology of Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "ALDAR",
+    location: "Dubai",
+  },
+  {
+    name: "jumaira",
+    location: "Dubai",
+  },
+  {
+    name: "American University in Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "United Arab Emirates University",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Khalifa University",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "University of sharjah",
+    location: "Sharjah",
+  },
+  {
+    name: "British University in Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "zayed university",
+    location: "Dubai",
+  },
+  {
+    name: "Gulf Medical University",
+    location: "Ajman",
+  },
+  {
+    name: "Higher Colleges of Technology",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Abu Dhabi University",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "American University of Ras al Khaimah",
+    location: "Ras al Khaimah",
+  },
+  {
+    name: "Abu Dhabi Polytechnic",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Abu Dhabi School of Management",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Ajman University",
+    location: "Ajman",
+  },
+  {
+    name: "Al Ain University",
+    location: "Al Ain",
+  },
+  {
+    name: "Al Dar University College (On Probation)",
+    location: "Dubai",
+  },
+  {
+    name: "Al Falah University",
+    location: "Dubai",
+  },
+  {
+    name: "Al Qasimia University",
+    location: "Sharjah",
+  },
+  {
+    name: "Al Wasl University",
+    location: "Dubai",
+  },
+  {
+    name: "Amity University Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "Canadian University of Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "City University College of Ajman",
+    location: "Ajman",
+  },
+  {
+    name: "Dubai Institute of Design and Innovation",
+    location: "Dubai",
+  },
+  {
+    name: "Dubai Medical College",
+    location: "Dubai",
+  },
+  {
+    name: "Dubai Pharmacy College",
+    location: "Dubai",
+  },
+  {
+    name: "Emirates Aviation University",
+    location: "Dubai",
+  },
+  {
+    name: "Emirates College for Advanced Education",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Emirates Institute for Banking and Financial Studies",
+    location: "Dubai",
+  },
+  {
+    name: "European University College",
+    location: "Dubai",
+  },
+  {
+    name: "Fatima College of Health Sciences",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Higher Colleges of Technology",
+    location: "Al Ain",
+  },
+  {
+    name: "Imam Malik College for Islamic Sharia and Law",
+    location: "Dubai",
+  },
+  {
+    name: "Institute of Management Technology Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "Islamic Azad University U.A.E. Branch",
+    location: "Dubai",
+  },
+  {
+    name: "Jumeira University",
+    location: "Dubai",
+  },
+  {
+    name: "Khawarizmi International College",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Liwa College of Technology",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Manipal University, Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "Middlesex University Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "Mohamed Bin Zayed University for Humanities",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Mohamed bin Zayed University of Artificial Intelligence",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Mohammed Bin Rashid School of Government",
+    location: "Dubai",
+  },
+  {
+    name: "Mohammed Bin Rashid University of Medicine and Health Sciences",
+    location: "Dubai",
+  },
+  {
+    name: "Murdoch University Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "New York Institute of Technology Abu Dhabi",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "New York University Abu Dhabi",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Ras al-Khaimah Medical and Health Sciences University",
+    location: "Ras al-Khaimah",
+  },
+  {
+    name: "Rochester Institute of Technology, Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "Shaheed Zulfikar Ali Bhutto Institute of Science and Technology Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "Skyline University College",
+    location: "Sharjah",
+  },
+  {
+    name: "The British University in Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "The Emirates Academy of Hospitality Management",
+    location: "Dubai",
+  },
+  {
+    name: "Umm Al Quwain University",
+    location: "Umm Al Quwain",
+  },
+  {
+    name: "United Arab Emirates University",
+    location: "Al-Ain",
+  },
+  {
+    name: "Université Paris-Sorbonne Abou Dhabi",
+    location: "Abu Dhabi",
+  },
+  {
+    name: "Université Saint-Joseph de Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "University College of Mother and Family Sciences",
+    location: "Ajman",
+  },
+  {
+    name: "University of Birmingham Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "University of Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "University of Fujairah",
+    location: "Fujairah",
+  },
+  {
+    name: "University of Science and Technology of Fujairah",
+    location: "Fujairah",
+  },
+  {
+    name: "University of Sharjah",
+    location: "Sharjah",
+  },
+  {
+    name: "University of Wollongong in Dubai",
+    location: "Dubai",
+  },
+  {
+    name: "Zayed University",
+    location: "Dubai",
+  },
+];
+
 //********************************************************************************************************************************************************************
 
 const container = document.getElementById("accordion");
@@ -486,35 +769,7 @@ function filter() {
       const Location = colleges[i].location;
       const publicPrivate = colleges[i].publicPrivate;
 
-      // console.log("--------------Location");
-      // //      console.log("Card is " + Location);
-      // console.log(FDubaiCheckbox);
-      // console.log("---------------");
-      // // console.log("Card is " + publicPrivate);
-      // console.log(FPrivateCheckbox);
-      // console.log(FPublicCheckbox);
-      /*console.log("Location is " + Locarr.length);
-      console.log(PrPubarr.length);
-      console.log(
-        "FPrivateCheckbox" +
-          FPrivateCheckbox +
-          "FPublicCheckbox" +
-          FPublicCheckbox
-      );*/
-
-      // console.log(FDubaiCheckbox);
-      // console.log(Location);
-
-      // no filter is checked
-      // if (
-      //   (!DubaiCheckbox.checked || !SharjahCheckbox.checked) &&
-      //   (!PublicCheckbox.checked || !PrivateCheckbox.checked)
-      // ) {
-      //   console.log("--------------No Filter");
-      //   cards[i].style.display = "block";
-      // }
-
-      // both filterss are checked
+      // if both filterss are checked
       if (
         (DubaiCheckbox.checked ||
           SharjahCheckbox.checked ||
@@ -571,14 +826,7 @@ function filter() {
         )
       ) {
         console.log("--------------PubPrivate filter");
-        if (
-          PrPubarr.includes(publicPrivate)
-          // Location == SharjahCheckbox.name
-          // Location in (DubaiCheckbox.name, SharjahCheckbox.name) ||
-          // publicPrivate in (PrivateCheckbox, PublicCheckbox)
-          //        Locarr.includes(Location) ||
-          //      PrPubarr.includes(publicPrivate)
-        ) {
+        if (PrPubarr.includes(publicPrivate)) {
           cards[i].style.display = "block";
         }
       }

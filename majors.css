@@ -1,19 +1,24 @@
-#majorsherosectionimg{
-    height:450px;
-    width:450px;
-    float: right;
-    position: absolute; top: 100px; right: 70px;
+#majorsherosectionimg {
+  height: 450px;
+  width: 450px;
+  float: right;
+  position: absolute;
+  top: 100px;
+  right: 70px;
 }
 
-.majorsherosection{
-    margin-bottom: 160px;
+.majorsherosection {
+  margin-bottom: 160px;
 }
 
-.popularmajors{
-    background-color: #f2f2f294 !important;
+.popularmajors {
+  background-color: #f2f2f294 !important;
 }
 
-#highestpay{
-    background-color: #ffffff !important;
+#highestpay {
+  background-color: #ffffff !important;
 }
 
+a {
+  text-decoration: none;
+}

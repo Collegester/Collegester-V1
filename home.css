@@ -1,67 +1,60 @@
 /*main styling for body*/
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
+
 /**********************************************************************************************************************************************************************/
 /*styling for the navigation menu*/
 .topnav {
-  overflow: hidden ;
+  overflow: hidden;
 }
 
 .topnav ul {
-  display: flex ;
-  list-style: none ;
-  margin: 0 ;
-  padding: 0 ;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .topnav ul li {
-  float: left ;
+  float: left;
   margin-right: 30px;
-  color: #f2f2f2 ;
-  text-decoration: none ;
-  display: flex ;
-  list-style: none ;
-  padding: 0 ;
+  color: #f2f2f2;
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 /*a hover effect for the links in a navbar*/
 .topnav ul li:hover {
-  color: black ;
+  color: black;
 }
 
 header {
-  width:100% ;
-  background-color: #fff ;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1) ;
-  position: sticky ;
-  top: 0 ;
-  box-sizing: border-box ;    
-  z-index:10;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 10;
 }
 
 nav {
-  display: flex ;
-  flex: 1 ;
-  
-  justify-content: space-between ;
-  align-items: center ;
-  padding: 1.5rem 1rem ;
+  display: flex;
+  flex: 1;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
 }
 
 .topnav .links {
-  text-decoration: none ;
-  color: #333 ;
-  font-weight: bold ;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 
 /*hiding the bars button*/
-#link{
+#link {
   display: none;
 }
 
@@ -70,34 +63,33 @@ nav {
 /*the headings*/
 .herosectionheading {
   margin: 9% 7px 10px 50px;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  color:rgba(20, 89, 67, 0.779);
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
+  color: rgba(20, 89, 67, 0.779);
   width: 60%;
-} 
+}
 
 /*paragraphs*/
-.herosectionparagraph{
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  margin: 0px 0px 20px 50px; 
+.herosectionparagraph {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin: 0px 0px 20px 50px;
   width: 50%;
   font-size: 100%;
-
 }
 
 /*button styling after the bootstrap*/
-.button-primary-override{
+.button-primary-override {
   color: #ff4621a4 !important;
   border-color: #ff4621a4 !important;
   margin: 0px 0px 0px 50px;
   width: 200px;
 }
 
-.button-primary-override:hover, 
+.button-primary-override:hover,
 .button-primary-override:active,
 .button-primary-override:focus,
-.button-primary-override:visited{
+.button-primary-override:visited {
   background-color: #ff4621a4 !important;
   border-color: #ff4621a4 !important;
   background-image: none !important;
@@ -107,10 +99,12 @@ nav {
 
 /*the image*/
 #herosectionimg {
-  width:35%;height:auto;
+  width: 35%;
+  height: auto;
   float: right;
-  position: absolute; top: 20%; right: 40px;
-
+  position: absolute;
+  top: 20%;
+  right: 40px;
 }
 
 /*more styling for the headings*/
@@ -128,45 +122,44 @@ nav {
   margin-bottom: 2rem;
 }
 /*****************************************************************************************************************************************************************************/
- /*first section (why collegester) styling*/
+/*first section (why collegester) styling*/
 .firstsection {
   background-color: #f2f2f294;
   padding: 0px 0px 2.7% 3.6%;
   text-align: center;
-  margin: 0px 0px 0px 0px ;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  margin: 0px 0px 0px 0px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*the first section headings (the section is why collegester)*/
 #whycollegesterheading {
   text-align: center;
   color: rgb(61, 90, 70);
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  margin: 10% 0px 2.7% -2.5% ;
-  padding-top: 2.7%; 
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin: 10% 0px 2.7% -2.5%;
+  padding-top: 2.7%;
 }
 
 /* features is another word for why us*/
-.features img{
+.features img {
   width: 65%;
   height: auto;
   border-radius: 10%;
 }
 
-.features h3{
+.features h3 {
   padding-top: 10px;
 }
 
-.features p{
+.features p {
   color: rgba(56, 56, 56, 0.879);
 }
 
 .features {
   width: 30% !important;
   color: rgb(54, 54, 54);
-
 }
 
 /*styling for the buttons in the why us section*/
@@ -180,58 +173,56 @@ nav {
   margin-left: 2.7%;
 }
 
-#firstwhycard{
+#firstwhycard {
   margin-left: 4.5% !important;
 }
 
 /*****************************************************************************************************************************************************************************/
 /*featured colleges and popular majors section*/
-.featuredcolleges{
+.featuredcolleges {
   padding: 0px 0px 30px 0px;
   text-align: center;
-  margin: 0px ;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-family: 'Raleway', sans-serif; 
-  background-color:  #f2f2f294;
+  margin: 0px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: #f2f2f294;
 }
 
-.popularmajors{
+.popularmajors {
   background-color: rgb(255, 255, 255);
 
   padding: 10px 0px 10px 0px;
   text-align: center;
-  margin: 0px ;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-family: 'Raleway', sans-serif; 
+  margin: 0px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-.news{
+.news {
   padding: 0px 0px 30px 0px;
   text-align: center;
-  margin: 0px ;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-family: 'Raleway', sans-serif; 
+  margin: 0px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: rgb(255, 255, 255);
 }
 
-.news .card{
+.news .card {
   width: 50px;
   height: auto;
-
 }
 
 /* responsive card slider*/
 /* Import Google font - Poppins */
 
-.sectionheading{
+.sectionheading {
   margin: 10px 7px 10px 50px;
-font-family: 'Mouse Memoirs', sans-serif;
-font-family: 'Raleway', sans-serif;
-color:rgba(0, 0, 0, 0.779);
-width: 1000px;
-text-align: left;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.779);
+  width: 1000px;
+  text-align: left;
 }
-
 
 ::-webkit-scrollbar {
   height: 8px;
@@ -246,7 +237,6 @@ text-align: left;
   border-radius: 25px;
 }
 
-
 ::-webkit-scrollbar-thumb:hover {
   background: #565c6c;
 }
@@ -260,7 +250,7 @@ text-align: left;
   padding: 30px;
   scroll-snap-type: x mandatory;
   overflow-x: scroll;
-  -ms-overflow-style:none;
+  -ms-overflow-style: none;
   scroll-padding: 30px;
 }
 
@@ -273,19 +263,17 @@ text-align: left;
   padding: 30px;
   scroll-snap-type: x mandatory;
   overflow-x: scroll;
-  -ms-overflow-style:none;
+  -ms-overflow-style: none;
   scroll-padding: 30px;
 }
 
-.news-container{
+.news-container {
   display: flex;
   gap: 12px;
   margin-left: 3%;
-  margin-right:3%;
+  margin-right: 3%;
   border-radius: 12px;
-
 }
-
 
 .news-container .card {
   display: block;
@@ -298,7 +286,7 @@ text-align: left;
   scroll-snap-align: start;
 }
 
-.news-container  img {
+.news-container img {
   height: 40%;
   width: 40%;
   object-fit: cover;
@@ -334,187 +322,178 @@ text-align: left;
   text-align: center;
 }
 
-
-.seconttolastsection{
+.seconttolastsection {
   background-color: rgb(85, 92, 92);
   padding: 0px 0px 30px 0px;
   text-align: center;
-  margin: 0px ;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-family: 'Raleway', sans-serif;  
+  margin: 0px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
-
-
 
 .featuredcolleges .collegesContainer .card {
-    display: block;
-    flex: 0 0 30%;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    background: #fff;
-    scroll-snap-align: start;
-    padding: 1rem;
-    border: 0.5px solid rgba(173, 173, 173, 0.66);
-    margin: 10px;
-    width: 20%;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    
-  }
-  
-  .featuredcolleges .collegesContainer .card .button-primary-over {
-    border-color: #ff4621a4 !important;
-    color: #ff4621a4 !important;
-    width: 97% !important;
-  
-    align-self: center !important;
-  }
-  
-  .featuredcolleges .collegesContainer .card .button-primary-over:hover {
-    background-color: #ff4621a4 !important;
-    border-color: #ff4621a4 !important;
-    background-image: none !important;
-    border: 0 !important;
-    color: #f9f9f9 !important;
-  }
-  
-
-  .featuredcolleges .collegesContainer .card-img-top {
-    position: absolute; /* position the image absolutely within the parent container */
-    top: 17%; /* position the top of the image at 50% of the parent container */
-    left: 50%; /* position the left of the image at 50% of the parent container */
-    transform: translate(
-      -50%,
-      -50%
-    ); /* center the image horizontally and vertically */
-    height: 150px;
-    width: 100%;
-    /* allow the height to adjust based on the width to maintain aspect ratio */
-  }
-  
-
-
-  .featuredcolleges .collegesContainer .card-title {
-    margin-top: 150px;
-    margin-left: -10px;
-    font-family: "Nunito Sans", sans-serif;
-    align-self: flex-start;
-    text-align: left;
-  }
-  
-  .featuredcolleges .collegesContainer #location {
-    margin: 10px 0px 20px -10px;
-    font-family: "Montserrat", sans-serif;
-    align-self: flex-start;
-    text-align: left;
-    float: inline-start;
-  }
-  
-  .featuredcolleges .collegesContainer .logo {
-    width: 75px;
-    height: 70px;
-    position: absolute;
-    top: 35%;
-    border-radius: 10%;
-    left: 20px;
-    background-color: #fff;
-    padding: 4px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .featuredcolleges .collegesContainer .circle {
-    height: 50px;
-    width: 50px;
-    background-color: #fff;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    top: 38%;
-    right: 7%;
-  }
-  
-  .featuredcolleges .collegesContainer .heart {
-    width: 25px;
-    height: auto;
-    position: absolute;
-    top: 41.5%;
-    right: 10%;
-  }
-  
-  /*footerr*/
-  
-  .footer{
-    z-index: 3;
-    margin-top: 30px;
-  }
-
-  .footer h5, h6,.paragraph, .footerlink{
-    color:#ffffffde;
-  }
-
-  .footerlink a{
-    text-decoration:none;
-    font-size:20px;
-
-  }
-  .footerlink:hover{
-    color:#ffffffde;
-
-  }
-
-  .footer h5{
-    margin:0px 0px 50px 0px;
-    
-  }
-  
-  .footerhead{
-    background-color:#454545;
-    margin-bottom:0px;
-    padding: 50px 0px 40px 90px
-  }
-
-  .footerfooter{
-    background-color: #3c3c3c;
-    margin:-20px;
-    padding: 20px 0px 10px 0px;
-  }
-
-  .footer .heading{
-    font-weight: 700;
-
-  }
-
-.footer .paragraph{
-    width:450px;
-    height:50px; 
-    font-size: small;
+  display: block;
+  flex: 0 0 30%;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background: #fff;
+  scroll-snap-align: start;
+  padding: 1rem;
+  border: 0.5px solid rgba(173, 173, 173, 0.66);
+  margin: 10px;
+  width: 20%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.secondcolumn{
+.featuredcolleges .collegesContainer .card .button-primary-over {
+  border-color: #ff4621a4 !important;
+  color: #ff4621a4 !important;
+  width: 97% !important;
+
+  align-self: center !important;
+}
+
+.featuredcolleges .collegesContainer .card .button-primary-over:hover {
+  background-color: #ff4621a4 !important;
+  border-color: #ff4621a4 !important;
+  background-image: none !important;
+  border: 0 !important;
+  color: #f9f9f9 !important;
+}
+
+.featuredcolleges .collegesContainer .card-img-top {
+  position: absolute; /* position the image absolutely within the parent container */
+  top: 17%; /* position the top of the image at 50% of the parent container */
+  left: 50%; /* position the left of the image at 50% of the parent container */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* center the image horizontally and vertically */
+  height: 150px;
+  width: 100%;
+  /* allow the height to adjust based on the width to maintain aspect ratio */
+}
+
+.featuredcolleges .collegesContainer .card-title {
+  margin-top: 150px;
+  margin-left: -10px;
+  font-family: "Nunito Sans", sans-serif;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.featuredcolleges .collegesContainer #location {
+  margin: 10px 0px 20px -10px;
+  font-family: "Montserrat", sans-serif;
+  align-self: flex-start;
+  text-align: left;
+  float: inline-start;
+}
+
+.featuredcolleges .collegesContainer .logo {
+  width: 75px;
+  height: 70px;
+  position: absolute;
+  top: 35%;
+  border-radius: 10%;
+  left: 20px;
+  background-color: #fff;
+  padding: 4px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featuredcolleges .collegesContainer .circle {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 38%;
+  right: 7%;
+}
+
+.featuredcolleges .collegesContainer .heart {
+  width: 25px;
+  height: auto;
+  position: absolute;
+  top: 41.5%;
+  right: 10%;
+}
+
+/*footerr*/
+
+.footer {
+  z-index: 3;
+  margin-top: 30px;
+}
+
+.footer h5,
+h6,
+.paragraph,
+.footerlink {
+  color: #ffffffde;
+}
+
+.footerlink a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.footerlink:hover {
+  color: #ffffffde;
+}
+
+.footer h5 {
+  margin: 0px 0px 50px 0px;
+}
+
+.footerhead {
+  background-color: #454545;
+  margin-bottom: 0px;
+  padding: 50px 0px 40px 90px;
+}
+
+.footerfooter {
+  background-color: #3c3c3c;
+  margin: -20px;
+  padding: 20px 0px 10px 0px;
+}
+
+.footer .heading {
+  font-weight: 700;
+}
+
+.footer .paragraph {
+  width: 450px;
+  height: 50px;
+  font-size: small;
+}
+
+.secondcolumn {
   margin: -140px 0px 0px 570px;
   align-items: left;
-  
 }
 
-.thirdcolumn{
+.thirdcolumn {
   margin: -235px 0px 0px 770px;
 }
 
-.fourthcolumn{
+.fourthcolumn {
   margin: -190px 0px 0px 920px;
-
 }
 
-.secondcolumn a{
+.secondcolumn a {
   margin-top: 20px;
 }
 
-.secondcolumn h1{
+.secondcolumn h1 {
   margin-bottom: 40px;
 }
 
-.footerfooter p{
-text-align: center;
-color: #ffffff;}
+.footerfooter p {
+  text-align: center;
+  color: #ffffff;
+}
